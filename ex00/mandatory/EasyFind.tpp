@@ -6,7 +6,7 @@
 /*   By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 19:10:39 by alvicina          #+#    #+#             */
-/*   Updated: 2024/04/26 10:42:57 by alvicina         ###   ########.fr       */
+/*   Updated: 2024/04/26 18:10:27 by alvicina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	easyFind(T const & container, int toFind)
 		std::cout << "Value found" << std::endl;
 		return (EXIT_SUCCESS);
 	}
-		
+	
 	else
 	{
 		std::cerr << "Value not found" << std::endl;

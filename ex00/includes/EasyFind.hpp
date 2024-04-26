@@ -6,7 +6,7 @@
 /*   By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 18:33:30 by alvicina          #+#    #+#             */
-/*   Updated: 2024/04/25 19:10:35 by alvicina         ###   ########.fr       */
+/*   Updated: 2024/04/26 10:39:08 by alvicina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@
 #include <algorithm>
 #include <array>
 
-
 template <typename T>
-void easyfind (T const & container,  int toFind);
+int easyfind (T const & container,  int toFind);
+
+#include "../mandatory/EasyFind.tpp"
+
 #endif

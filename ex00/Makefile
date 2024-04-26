@@ -6,7 +6,7 @@
 #    By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/13 11:42:41 by alvicina          #+#    #+#              #
-#    Updated: 2024/04/25 18:32:08 by alvicina         ###   ########.fr        #
+#    Updated: 2024/04/26 10:35:11 by alvicina         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ HEADER_SRCS =  EasyFind.hpp \
 HEADER_DIR  = includes/
 HEADER      = $(addprefix $(HEADER_DIR), $(HEADER_SRCS))
 
-MPATH_SRCS  =  main.cpp EasyFind.tpp \
+MPATH_SRCS  =  main.cpp \
 
 MPATH_DIR   = mandatory/
 MPATH       = $(addprefix $(MPATH_DIR), $(MPATH_SRCS))

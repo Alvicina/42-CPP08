@@ -6,7 +6,7 @@
 /*   By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 11:06:09 by alvicina          #+#    #+#             */
-/*   Updated: 2024/04/26 11:40:18 by alvicina         ###   ########.fr       */
+/*   Updated: 2024/04/26 16:34:57 by alvicina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,12 @@ class Span
 		Span(unsigned int const  & N);
 		~Span();
 		Span(Span const & a);
-		Span&	operator=(Span const & a);
-		void	addNumber(unsigned int const & N);
-		unsigned int& shortestSpan() const;
-		unsigned int& longestSpan() const;
+		Span&				operator=(Span const & a);
+		void				addNumber(unsigned int const & N);
+		unsigned int 		shortestSpan() const;
+		unsigned int 		longestSpan() const;
+		int			 		getValue(size_t index);
+		std::vector<int>& 	getVector();
 		
 		class cannotAddMoreElements : public std::exception
 		{

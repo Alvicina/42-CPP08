@@ -6,12 +6,12 @@
 /*   By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 19:10:39 by alvicina          #+#    #+#             */
-/*   Updated: 2024/04/26 10:39:57 by alvicina         ###   ########.fr       */
+/*   Updated: 2024/04/26 10:42:57 by alvicina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 template <typename T>
-int	easyfind(T const & container, int toFind)
+int	easyFind(T const & container, int toFind)
 {
 	if ( std::find(container.begin(), container.end(), toFind) != container.end())
 	{

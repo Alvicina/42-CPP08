@@ -6,7 +6,7 @@
 /*   By: alvicina <alvicina@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 19:00:59 by alvicina          #+#    #+#             */
-/*   Updated: 2024/04/26 10:40:27 by alvicina         ###   ########.fr       */
+/*   Updated: 2024/04/26 10:43:08 by alvicina         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ int	main(int argc, char **argv)
 		return (EXIT_FAILURE);
 	}
 	std::array<int, 6> intArray = {1, 2, 3, 4, 5, 6};
-	return(::easyfind(intArray, std::atoi(argv[1])));
+	return(::easyFind(intArray, std::atoi(argv[1])));
 }
